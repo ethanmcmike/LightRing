@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Oct 26 17:25:01 CDT 2018
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\boys-\\Documents\\Android Studio\\LightRing\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

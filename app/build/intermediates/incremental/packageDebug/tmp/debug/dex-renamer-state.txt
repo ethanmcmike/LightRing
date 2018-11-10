@@ -1,0 +1,4 @@
+#Sat Nov 10 03:29:33 CST 2018
+base.0=C\:\\Users\\boys-\\Documents\\Android Studio\\LightRing\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
