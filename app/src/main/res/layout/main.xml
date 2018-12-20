@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <SeekBar
+        android:id="@+id/input_red"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" />
+
+    <SeekBar
+        android:id="@+id/input_green"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" />
+
+    <SeekBar
+        android:id="@+id/input_blue"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Send" />
+
+        <Button
+            android:id="@+id/red"
+            android:text="RED"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/green"
+            android:text="GREEN"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/blue"
+            android:text="BLUE"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/purple"
+            android:text="PURPLE"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</ScrollView>
